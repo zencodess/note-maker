@@ -12,10 +12,10 @@ A personal note taking web app with a decent UI, and support for
  -  Open http://127.0.0.1:5000/ on browser (eg: Chrome)
 
 You will see Note Maker app running. 
-eg: Refer to this [picture](https://github.com/zencodess/note-maker/blob/main/img/NoteMaker_v1.png), to check my app 
+eg: Refer to this ![picture](https://github.com/zencodess/note-maker/blob/main/img/NoteMaker_v1.png), to check my app 
 
 ## Code Overview
-[UML Diagram](https://github.com/zencodess/note-maker/blob/main/img/NoteMaker_UML_v1.png)
+![UML Diagram](https://github.com/zencodess/note-maker/blob/main/img/NoteMaker_UML_v1.png)
 ### Backend (app.py)
 This app.py file sets up the note-taking web application using Flask for the backend and SQLAlchemy for database interactions.
 #### Database configuration
