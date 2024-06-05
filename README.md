@@ -1,11 +1,21 @@
 ## Features
-A personal note taking web app with decent UI, with support for 
+A personal note taking web app with a decent UI, and support for 
  - Adding new notes,
  - Viewing notes list we have so far,
- - Storing all notes,
+ - Storing all the notes in database,
  - Modify or Delete existing notes
+## Run Locally
+ - You can clone the repo using `git clone https://github.com/zencodess/note-maker.git`
+ - `cd note-maker`
+ - `pip3 install requirements.txt`
+ - `python3 run app.py`
+ -  Open http://127.0.0.1:5000/ on browser (eg: Chrome)
+
+You will see Note Maker app running. 
+eg: Refer to this [picture](https://github.com/zencodess/note-maker/blob/main/img/NoteMaker_v1.png), to check my app 
 
 ## Code Overview
+[UML Diagram](https://github.com/zencodess/note-maker/blob/main/img/NoteMaker_UML_v1.png)
 ### Backend (app.py)
 This app.py file sets up the note-taking web application using Flask for the backend and SQLAlchemy for database interactions.
 #### Database configuration
@@ -26,7 +36,7 @@ Note Class: This defines the Note table in the database.
   - DELETE: Deletes an existing note. Returns a deletion confirmation message.
 
 #### SQLite DB 
-
+[Notes will be stored in DB](https://github.com/zencodess/note-maker/blob/main/img/sqlite_db_v1.png)
 
 ### Frontend (static/scripts.js)
 The frontend handles the user interface and interactions, including loading, adding, editing, and deleting notes.
@@ -40,4 +50,3 @@ Class: NoteController
   - editNote(): Edits an existing note.
   - deleteNote(): Deletes a note.
   - saveNote(): Saves changes to a note.
-[UML Diagram]()
